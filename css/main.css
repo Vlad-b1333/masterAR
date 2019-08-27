@@ -1,0 +1,63 @@
+.myCountDown>.title {
+    font-family: "Quicksand", sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.myCountDown span {
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.myCountDown {
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.myCountDown ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.myCountDown li {
+    display: inline-block;
+    width: 9rem;
+    border-left: 0.01rem white solid;
+    border-right: 0.01rem white solid;
+    margin-top: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    margin-left: 0.4rem;
+}
+
+.myCountDown .timenumbers {
+    display: block;
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.myCountDown p.timedescription {
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    line-height: 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}

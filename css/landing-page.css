@@ -1,0 +1,441 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+@font-face {
+    font-family: 'BoschSans-Regular';
+    src: url('../fonts/BoschSans-Regular.woff') format("woff");
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "BoschSans-Regular";
+}
+
+.popUp1 img {
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+.popUp2 img {
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+.popUp1 a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    text-transform: none;
+}
+
+.popUp1 {
+    width: 98%;
+    background-color: #F8F8F8;
+    color: black;
+    font-weight: 600;
+    padding: 1.2rem;
+    border: 0.09rem #ED2C34 solid;
+    margin-top: 1rem;
+    float: left;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+    border-radius: 0.51rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    opacity: 0.9;
+    display: none;
+    padding-top: 0;
+}
+
+.closePop {
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin-right: -1rem;
+}
+
+.popUp2 {
+    width: 98%;
+    background-color: #F8F8F8;
+    color: black;
+    font-weight: 600;
+    padding: 1.2rem;
+    border: 0.09rem #ED2C34 solid;
+    margin-top: 1rem;
+    float: left;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+    border-radius: 0.51rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    opacity: 0.9;
+    display: none;
+    padding-top: 0;
+}
+
+.popUp2 a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    text-transform: none;
+}
+
+#closePopUp img {
+    width: 1.4rem;
+    height: 1.4rem;
+    cursor: pointer;
+}
+
+.container {
+    z-index: 4;
+}
+
+#closePopUp {
+    float: right;
+    margin-right: 0.3rem;
+    margin-top: 1rem;
+}
+
+#containerPopUp {
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+@media (max-width: 600px) {
+    #popUp {
+        width: 98%;
+    }
+}
+
+.bg-img1 {
+    height: 2rem !important;
+}
+
+.social-icons {
+    margin-top: 2vw;
+    text-align: center;
+}
+
+.social-icons li {
+    display: inline-block;
+    list-style-type: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.social-icons li a {
+    border-bottom: none;
+}
+
+.social-icons li img {
+    width: 8rem;
+    margin-right: 20px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "BoschSans-Regular";
+    /* font-weight: 700; */
+}
+
+.eccInfo {
+    text-align: justify;
+}
+
+.fa-fw {
+    color: white;
+    /* padding-top: 1.62rem; */
+}
+
+iframe {
+    width: 60vw !important;
+    height: 50vh !important;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.page-scroll {
+    text-transform: uppercase;
+}
+
+.intro-header {
+    padding-top: 50px;
+    /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 223px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro23.png) no-repeat center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 600px) {
+    .intro-header {
+        background-attachment: fixed;
+    }
+}
+
+.col-lg-offset-2 {
+    margin-bottom: 5%;
+}
+
+.logo {
+    width: 5em;
+}
+
+.col-lg-offset-2 {
+    text-align: justify;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message>h1 {
+    margin: 0;
+    text-shadow: 1px 1px 1px #3B3B3B, 0 0 0.1em #3B3B3B, 0 0 0.1em #3B3B3B;
+    font-size: 5em;
+}
+
+.phoneNumber:hover {
+    color: black;
+    text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
+}
+
+.phoneNumber {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 0.21em black, 0 0 0.2em black;
+}
+
+.col-lg-6 {
+    text-shadow: 1px 1px 2px black, 0 0 0.21em black, 0 0 0.2em black;
+}
+
+.col-lg-6 a {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 0.1em black, 0 0 0.2em black;
+}
+
+.col-lg-6 a:hover {
+    color: #7FC6E7;
+    text-shadow: 1px 1px 2px #184000, 0 0 0.1em #184000, 0 0 0.2em #184000;
+}
+
+.intro-divider {
+    width: 75rem;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message>h3 {
+    color: white;
+    text-shadow: 1px 1px 1px #3B3B3B, 0 0 0.1em #3B3B3B, 0 0 0.1em #3B3B3B;
+}
+
+.intro-message .btn-lg {
+    width: 13em;
+}
+
+@media(max-width:1199px) {
+    iframe {
+        width: 92vw !important;
+    }
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+    .intro-message>h1 {
+        font-size: 3em;
+    }
+    ul.intro-social-buttons>li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    ul.intro-social-buttons>li:last-child {
+        margin-bottom: 0;
+    }
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.img-responsive {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 600px) {
+    #services .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.list-inline {
+    display: inline-block;
+}
+
+.bosch-btn {
+    background: #008ECF;
+    width: 23rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    height: 5rem;
+    font-family: "BoschSans-Regular";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    margin-top: 1vw;
+}
+
+.bosch-btn a:hover {
+    text-decoration: none;
+}
+
+.bosch-btn:hover {
+    text-decoration: none;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: -33px;
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+    font-family: "BoschSans-Regular";
+}
+
+.network-name:active {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    background-image: url(../img/hr.png);
+    height: 0.71vh;
+    width: 100%;
+    background-size: contain;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/intro.png) no-repeat center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 600px) {
+    .banner {
+        background-attachment: fixed;
+    }
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+        font-size: 3em;
+    }
+    ul.banner-social-buttons>li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    ul.banner-social-buttons>li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
