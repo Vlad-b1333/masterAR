@@ -1,0 +1,19 @@
+{
+  "name": "Site",
+  "version": "1.0.0",
+  "description": "Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
